@@ -17,6 +17,7 @@ public class OrderBusiness {
     OrderRepository orderRepository;
 
     public List<OrderDto> getAll() {
+
         return new ArrayList<>(OrderTransformer.entityToDto(orderRepository.findAll()));
     }
 }
