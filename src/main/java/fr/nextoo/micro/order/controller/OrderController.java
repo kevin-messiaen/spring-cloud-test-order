@@ -23,11 +23,11 @@ public class OrderController {
     }
 
 
-    @GetMapping
-    private List<OrderDto> getOrders(){
-
-        return orderBusiness.getAll();
-    }
+//    @GetMapping
+//    private List<OrderDto> getOrders(){
+//
+//        return orderBusiness.getAll();
+//    }
 
 
 }
